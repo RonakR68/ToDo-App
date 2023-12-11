@@ -2,6 +2,25 @@
 
 - This MERN (MongoDB, Express.js, React.js, Node.js) based ToDo List demo application provides a simple platform for managing your tasks. The application consists of a backend server built with Express.js for handling data and a frontend React.js application for the user interface.
 
+## Features
+- The web app includes following pages and features:
+1. Create ToDo Page
+- A user-friendly interface with input boxes for title and description. Date Picker to specify the completion date of the To-Do item.
+- Ensures that users can only select future dates, maintaining the relevance of To-Do items.
+- Simplifies the process of creating a new To-Do item with a dedicated "Create" button.
+
+2. Complete ToDo Page
+- Showcases To-Do details with a completed status, providing a quick overview for the user.
+- Presents details in a read-only format, maintaining data integrity.
+  
+3. Pending ToDo Page
+- Displays To-Do items with an incomplete status, helping users focus on pending tasks.
+- Each pending ToDo item features two action buttons: "Done" and "Delete."
+- The "Done" button efficiently changes the status of a ToDo item to complete.
+- The "Delete" button allows users to remove a ToDo item from the database seamlessly.
+
+4. Logout: Enables users to log out securely, redirecting them to the login page for enhanced security.
+
 ## Backend
 
 - The backend of the application is powered by Express.js. The server folder contains the following key components:
