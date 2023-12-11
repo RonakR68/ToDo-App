@@ -35,9 +35,9 @@ function Register() {
         })
         .catch((error) => {
             if (error.response && error.response.data && error.response.data.error) {
-                setErrorMessage(error.response.data.error);
+                console.log(error.response.data.error);
               } else {
-                setErrorMessage('Unable to register user');
+                console.log('Unable to register user');
               }
             });
 
